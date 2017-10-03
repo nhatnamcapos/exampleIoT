@@ -42,6 +42,14 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
 
+#include "configureSystemF4.h"
+#include "cmsis_os.h"
+
+#include "stm32f4xx_ll_fsmc.h"
+#include "stm32f4xx_hal_sram.h"
+#include "stm32f4xx_ll_fmc.h"
+#include "SSD1963.h"
+#include "GUI_Table.h"
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
 /* Exported macro ------------------------------------------------------------*/
